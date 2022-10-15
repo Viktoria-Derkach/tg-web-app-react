@@ -12,14 +12,12 @@ function App() {
         tg.ready();
     }, [])
 
-    const onClose = () => {
-      tg.close()
-    }
+
 
     return (
         <div className="App">
           work 1
-       <button onClick={onClose}>Close</button>
+
         </div>
     );
 }
