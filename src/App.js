@@ -2,6 +2,7 @@
 
 import './App.css';
 import React, {useEffect} from "react";
+import Header from './components/Header/Header';
 // import {useTelegram} from "./hooks/useTelegram";
 
 const tg = window.Telegram.WebApp
@@ -16,8 +17,8 @@ function App() {
 
     return (
         <div className="App">
-          work 1
-
+          <Header />
+          work
         </div>
     );
 }
