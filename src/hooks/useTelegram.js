@@ -15,6 +15,6 @@ export const useTelegram = () => {
     onClose,
     onToggleButton,
     tg,
-    user: tg.initDataUnsafe?.username,
+    user: tg.initDataUnsafe?.user,
   }
 }
